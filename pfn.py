@@ -2,7 +2,7 @@ import sys
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import AutoTokenizer, AutoModel, AlbertTokenizer, AlbertModel, AutoModelForPreTraining, 
+from transformers import AutoTokenizer, AutoModel, AlbertTokenizer, AlbertModel, AutoModelForPreTraining 
 from transformers import CanineTokenizer, CanineModel   # Comment in when Environment 1 is used.
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
