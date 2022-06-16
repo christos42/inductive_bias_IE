@@ -186,7 +186,9 @@ if __name__ == '__main__':
     set_seed(args.seed)
 
     output_dir = "save/" + args.output_file
-    os.mkdir(output_dir)
+    # Create the output directory if it doesn't exist.
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     logger.addHandler(logging.FileHandler(output_dir + "/" + args.output_file + ".log", 'w'))
     logger.info(sys.argv)

@@ -51,13 +51,10 @@ class Embedding_Extraction:
         # Longest sentence (precalculated):
         #       - ADE: 97 (+2 for the special tokens)
         #       - CONLL04: 118 (+2 for the special tokens)
-        #       - SCIERC: 101 (+2 for the special tokens)
         if self.args.dataset == 'ADE':
             self.max_sentence_length = 99
         elif self.args.dataset == 'CONLL04':
             self.max_sentence_length = 120
-        elif self.args.dataset == 'SCIERC':
-            self.max_sentence_length = 103
 
     def extract_embeddings(self):
         if self.args.mode == 'word_level':
@@ -67,8 +64,6 @@ class Embedding_Extraction:
                 self.extract_embeddings_word_level_canine()
             else:
                 self.extract_embeddings_word_level_al_bert()
-        elif self.args.mode == 'CLDR_CLNER':
-            self.extract_embeddings_CLDR_CLNER()
 
     def extract_embeddings_word_level_al_bert(self):
         # Prepare for the extraction of the pre-trained Bert/Albert embeddings
