@@ -256,7 +256,7 @@ if __name__ == '__main__':
 
     hyph = Hyphenation(args.data, args.subword_length, args.first_n)
 
-    print('Count the words with a frequency higher than a given threshold:')
+    print('Count the words with a frequency higher than the given threshold:')
     hyph.count_most_freq_words_with_threshold(args.threshold)
     
     # Create the plots
