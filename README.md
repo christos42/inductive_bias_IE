@@ -1,7 +1,6 @@
 # An Information Extraction Study: Take In Mind the Tokenization! 
 Official code repository of "An Information Extraction Study: Take In Mind the Tokenization!" paper 
 (PyTorch implementation).
-For a description of the models and experiments, see our paper: (accepted at EMNLP 2022).
 
 ## Setup
 ### Requirements
