@@ -1,6 +1,9 @@
+  
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-information-extraction-study-take-in-mind/relation-extraction-on-ade-corpus)](https://paperswithcode.com/sota/relation-extraction-on-ade-corpus?p=an-information-extraction-study-take-in-mind)
+
 # An Information Extraction Study: Take In Mind the Tokenization! 
 Official code repository of "An Information Extraction Study: Take In Mind the Tokenization!" paper 
-(PyTorch implementation).
+(PyTorch implementation). For the detailed description of the study, see our papaer: https://arxiv.org/abs/2303.15100 (to be published at EUSFLAT 2023).
 
 ## Setup
 ### Requirements
@@ -46,6 +49,18 @@ For the rest of the models we have the following requirements (environment 2):
   - <a target="_blank" href="https://github.com/helboukkouri/character-bert">CharacterBERT</a> \[1\]
   - <a target="_blank" href="https://github.com/Coopercoppers/PFN">Partition Filter Network</a> \[2\]
   - <a target="_blank" href="https://github.com/christos42/CLDR_CLNER_models">CLDR & CLNER models</a> \[3\]
+
+
+## Notes
+Please cite our work when using this software.
+
+Theodoropoulos, & Moens, M. F. (2023). An Information Extraction Study: Take In Mind the Tokenization!. arXiv preprint  arXiv:2303.15100.
+
+
+BibTex:
+<pre>
+
+</pre>
 
 
 ## References
