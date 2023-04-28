@@ -60,21 +60,21 @@ Theodoropoulos, & Moens, M. F. (2023). An Information Extraction Study: Take In 
 BibTex:
 <pre>
 @article{theodoropoulos2023information,
-  title={An Information Extraction Study: Take In Mind the Tokenization!},
-  author={Theodoropoulos, Christos and Moens, Marie-Francine},
-  journal={arXiv preprint arXiv:2303.15100},
-  year={2023}
+         title={An Information Extraction Study: Take In Mind the Tokenization!},
+         author={Theodoropoulos, Christos and Moens, Marie-Francine},
+         journal={arXiv preprint arXiv:2303.15100},
+         year={2023}
 }
 </pre>
 
 <pre>
 @software{inductive_bias_IE,
-author = {Theodoropoulos, Christos},
-month = {6},
-title = {An Information Extraction Study: Take In Mind the Tokenization!},
-url = {https://github.com/christos42/inductive_bias_IE},
-version = {main},
-year = {2022}
+          author = {Theodoropoulos, Christos},
+          month = {6},
+          title = {An Information Extraction Study: Take In Mind the Tokenization!},
+          url = {https://github.com/christos42/inductive_bias_IE},
+          version = {main},
+          year = {2022}
 }
 </pre>
 
