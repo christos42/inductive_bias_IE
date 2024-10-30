@@ -59,11 +59,14 @@ Theodoropoulos, & Moens, M. F. (2023). An Information Extraction Study: Take In 
 
 BibTex:
 <pre>
-@article{theodoropoulos2023information,
-         title={An Information Extraction Study: Take In Mind the Tokenization!},
-         author={Theodoropoulos, Christos and Moens, Marie-Francine},
-         journal={arXiv preprint arXiv:2303.15100},
-         year={2023}
+@inproceedings{theodoropoulos2023information,
+  title={An information extraction study: Take in mind the tokenization!},
+  author={Theodoropoulos, Christos and Moens, Marie-Francine},
+  booktitle={Conference of the European Society for Fuzzy Logic and Technology},
+  pages={593--606},
+  year={2023},
+  organization={Springer},
+  doi={https://doi.org/10.1007/978-3-031-39965-7_49}
 }
 </pre>
 
